@@ -12758,7 +12758,7 @@ img {
   border-top: 0;
   -webkit-justify-content: space-between;
   /* Safari 6.1+ */
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .modal-content .modal-footer button {
