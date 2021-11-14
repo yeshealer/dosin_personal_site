@@ -355,7 +355,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: white;
+  font-family: inherit !important;
 }
 
 .section-title h2::before {
