@@ -58,7 +58,7 @@
         </div>
         <ul class="navbar-nav">
           <li class="nav-item p-0">
-            <a class="nav-link" rel="tooltip" title="Add me on your Skype" href="https://web.skype.com/">
+            <a class="nav-link" rel="tooltip" title="Add me on your Skype" href="https://join.skype.com/invite/NvahXvmKbJKM">
               <i class="fab fa-skype"></i>
               <p class="d-lg-none d-xl-none">Skype</p>
             </a>
@@ -79,7 +79,7 @@
             <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skill</a>
+            <a class="nav-link" href="skill.html">Skill</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Resume</a>
@@ -123,7 +123,7 @@
                   <img class="d-block" src="../assets/img/crox.png" alt="Croxswap" style="width: 100%">
                 </div>
                 <div class="card-footer text-center">
-                  <button class="btn btn-primary btn-simple">Detail</button>
+                  <button data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-simple">Detail</button>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@
                   <img class="d-block" src="../assets/img/apeswap.png" alt="Apeswap" style="width: 100%">
                 </div>
                 <div class="card-footer text-center">
-                  <button class="btn btn-success btn-simple">Detail</button>
+                  <button data-toggle="modal" data-target="#myModal1" class="btn btn-success btn-simple">Detail</button>
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@
                   <img class="d-block" src="../assets/img/seafood.png" alt="9s Seafood" style="width: 100%;">
                 </div>
                 <div class="card-footer text-center">
-                  <button class="btn btn-info btn-simple">Detail</button>
+                  <button data-toggle="modal" data-target="#myModal2" class="btn btn-info btn-simple">Detail</button>
                 </div>
               </div>
             </div>
@@ -323,6 +323,69 @@
 
       </div>
     </section>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="tim-icons icon-simple-remove"></i>
+            </button>
+            <h4 class="title title-up">CROXSWAP</h4>
+          </div>
+          <div class="modal-body">
+            <p>CroxSwap is a fully decentralized next-generation yield farming protocol which offers dual rewards for staking and farming. CroxSwap's cross-chain bridge (in progress) will be the cheaper & faster service to transfer your assets across networks without any hassle.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://app.croxswap.com"><button type="button" class="btn btn-default">Visit Site</button></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="tim-icons icon-simple-remove"></i>
+            </button>
+            <h4 class="title title-up">APESWAP</h4>
+          </div>
+          <div class="modal-body">
+            <p>ApeSwap is an Automated Market Maker, Yield Farming, and Staking platform on Binance Smart Chain (forked from PancakeSwap). ApeSwap was built by DeFi Apes, for DeFi Apes. We have a dedicated team of experienced monkeys, who have been in the crypto space for years. $ BANANA is the native currency of our platform.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://apeswap.finance/"><button type="button" class="btn btn-default">Visit Site</button></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="tim-icons icon-simple-remove"></i>
+            </button>
+            <h4 class="title title-up">9S SEAFOOD</h4>
+          </div>
+          <div class="modal-body">
+            <p>We are a third generation business with more than 60 years of history. From our humble beginnings as a roadside stall in Chinatown, we are now a well-established fresh & frozen seafood supplier.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.9sseafood.com/en_SG/"><button type="button" class="btn btn-default">Visit Site</button></a>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <footer class="footer">
       <div class="container">
@@ -333,17 +396,17 @@
           <div class="col-md-6">
             <ul class="nav">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">
+                <a href="../index.html" class="nav-link">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a href="examples/landing-page.html" class="nav-link">
+                <a href="landing-page.html" class="nav-link">
                   Portfolio
                 </a>
               </li>
               <li class="nav-item">
-                <a href="examples/register-page.html" class="nav-link">
+                <a href="skill.html" class="nav-link">
                   Skill
                 </a>
               </li>
@@ -357,14 +420,14 @@
           <div class="col-md-3">
             <h3 class="title">Follow us:</h3>
             <div class="btn-wrapper profile">
-              <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                <i class="fab fa-twitter"></i>
+              <a target="_blank" href="https://join.skype.com/invite/NvahXvmKbJKM" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow me">
+                <i class="fab fa-skype"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
-                <i class="fab fa-facebook-square"></i>
+              <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXMlknqRgJmFTjfTgcVTmjhpxpJRhqnZpFtxzdkjJQWMKVgKJhdjhCLfVwnwhkDDhPvKm" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like me">
+                <i class="fa fa-envelope"></i>
               </a>
-              <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                <i class="fab fa-dribbble"></i>
+              <a target="_blank" href="https://www.linkedin.com/in/ari-jackson-722b94223" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow me">
+                <i class="fab fa-linkedin"></i>
               </a>
             </div>
           </div>
