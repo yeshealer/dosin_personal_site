@@ -506,7 +506,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: white;
 }
 
 .resume .resume-item {
@@ -528,7 +528,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #0103324d;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
